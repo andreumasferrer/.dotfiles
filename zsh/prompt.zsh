@@ -1,21 +1,25 @@
+# Test all colors (spectrum.zsh)
+# for code in {000..255}; do echo -e "$FG[${code}] $code: Test $FX[reset]"; done
+
 autoload colors && colors
-# cheers, @ehrenmurdick
-# http://github.com/ehrenmurdick/config/blob/master/zsh/prompt.zsh
 
 anchor() {
   echo ""
 }
 
 user() {
-  echo "%{$fg_bold[yellow]%}%n%{$reset_color%}"
+  #echo "%{$fg_bold[yellow]%}%n%{$reset_color%}"
+  echo "%{$FG[117]%}%n$FX[reset]"
 }
 
 at() {
-  echo "%{$fg_bold[yellow]%}@%{$reset_color%}"
+  #echo "%{$fg_bold[yellow]%}@%{$reset_color%}"
+  echo "%{$FG[243]%}@$FX[reset]"
 }
 
 machine() {
-  echo "%{$fg_bold[cyan]%}%m%{$reset_color%}"
+  #echo "%{$fg_bold[cyan]%}%m%{$reset_color%}"
+  echo "%{$FG[114]%}%m$FX[reset]"
 }
 
 in() {
@@ -24,6 +28,7 @@ in() {
 
 directory_name(){
   echo "%{$fg_no_bold[yellow]%}%~%\/%{$reset_color%}"
+  #echo "%{$FG[215]%}%~%\/$FX[reset]"
 }
 
 git_branch(){
