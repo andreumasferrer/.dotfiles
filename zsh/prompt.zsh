@@ -4,7 +4,7 @@
 autoload colors && colors
 
 anchor() {
-  echo ""
+  echo "%{$FG[231]%}$FX[reset]"
 }
 
 user() {
