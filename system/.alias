@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-# Easier navigation
+# Easier navigation & file listing
 alias cd..="cd .."
+alias ll="ls -lA"
 
 # Tell grep to highlight matches
 alias grep="grep --color=auto"

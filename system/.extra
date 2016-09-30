@@ -1,1 +1,3 @@
-echo ".extra"
+#!/usr/bin/env bash
+
+# Nothing yet
