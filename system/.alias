@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Easier navigation
+alias cd..="cd .."
+
+# Tell grep to highlight matches
+alias grep="grep --color=auto"

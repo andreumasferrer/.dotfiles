@@ -1,2 +1,0 @@
-# ZSH
-alias reload!='. ~/.zshrc'
