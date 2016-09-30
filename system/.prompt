@@ -47,7 +47,7 @@ prompt_git() {
 
     #Print clean branches in a diferent color (green)
 		if [ -z "${s}" ]; then
-      echo -e "${green}(${branchName})}";
+      echo -e "${green}(${branchName})";
 		else
 			echo -e "${red}(${branchName})${bold}${brightyellow}${s}";
 		fi
