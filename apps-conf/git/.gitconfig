@@ -6,7 +6,7 @@
 	name = andreumasferrer
 	email = andreumasferrer@outlook.com
 [core]
-	editor = atom --wait
+	editor = code --wait
 [push]
 	default = upstream
 [merge]

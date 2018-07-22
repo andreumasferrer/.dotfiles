@@ -1,8 +1,2 @@
 # Ignore Mac OSX files
 .DS_Store
-
-# Atom sync
-apps-conf/.atom/blob-store/
-apps-conf/.atom/compile-cache/
-apps-conf/.atom/packages/
-apps-conf/.atom/storage/
